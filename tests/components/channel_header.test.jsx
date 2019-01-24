@@ -13,6 +13,7 @@ describe('components/ChannelHeader', () => {
             leaveChannel: jest.fn(),
             favoriteChannel: jest.fn(),
             unfavoriteChannel: jest.fn(),
+            sendWebRtcMessage: jest.fn(),
             showFlaggedPosts: jest.fn(),
             showPinnedPosts: jest.fn(),
             showMentions: jest.fn(),
@@ -20,6 +21,7 @@ describe('components/ChannelHeader', () => {
             updateRhsState: jest.fn(),
             openModal: jest.fn(),
             getCustomEmojisInText: jest.fn(),
+            goToLastViewedChannel: jest.fn(),
             updateChannelNotifyProps: jest.fn(),
         },
         channel: {},
@@ -27,6 +29,7 @@ describe('components/ChannelHeader', () => {
         currentUser: {},
         lastViewedChannelName: '',
         penultimateViewedChannelName: '',
+        webRtcLink: '',
     };
 
     const populatedProps = {

@@ -91,6 +91,46 @@ exports[`component/sidebar/sidebar_channel/SidebarChannel should match snapshot,
         >
           <li>
             <h4
+              id="dashboard"
+            >
+              <FormattedMessage
+                defaultMessage="DASHBOARD"
+                id="sidebar.dashboard"
+                values={Object {}}
+              />
+            </h4>
+          </li>
+          <li
+            className=""
+            key="dashboard"
+          >
+            <button
+              className="nav-more cursor--pointer style--none btn--block"
+              id="dashboard"
+              onClick={[Function]}
+            >
+              <span
+                style={
+                  Object {
+                    "marginRight": ".5rem",
+                  }
+                }
+              >
+                <MaterialIcon
+                  icon="dashboard"
+                  invert={true}
+                  size={17}
+                />
+              </span>
+              <FormattedMessage
+                defaultMessage="Riff Stats"
+                id="sidebar.dashboard"
+                values={Object {}}
+              />
+            </button>
+          </li>
+          <li>
+            <h4
               id="publicChannel"
             >
               <FormattedMessage
@@ -142,7 +182,7 @@ exports[`component/sidebar/sidebar_channel/SidebarChannel should match snapshot,
             </h4>
           </li>
           <Connect(SidebarChannel)
-            active={true}
+            active={false}
             channelId="c1"
             currentTeamName="test-team"
             currentUserId="my-user-id"
@@ -437,6 +477,46 @@ exports[`component/sidebar/sidebar_channel/SidebarChannel should match snapshot,
         >
           <li>
             <h4
+              id="dashboard"
+            >
+              <FormattedMessage
+                defaultMessage="DASHBOARD"
+                id="sidebar.dashboard"
+                values={Object {}}
+              />
+            </h4>
+          </li>
+          <li
+            className=""
+            key="dashboard"
+          >
+            <button
+              className="nav-more cursor--pointer style--none btn--block"
+              id="dashboard"
+              onClick={[Function]}
+            >
+              <span
+                style={
+                  Object {
+                    "marginRight": ".5rem",
+                  }
+                }
+              >
+                <MaterialIcon
+                  icon="dashboard"
+                  invert={true}
+                  size={17}
+                />
+              </span>
+              <FormattedMessage
+                defaultMessage="Riff Stats"
+                id="sidebar.dashboard"
+                values={Object {}}
+              />
+            </button>
+          </li>
+          <li>
+            <h4
               id="publicChannel"
             >
               <FormattedMessage
@@ -488,7 +568,7 @@ exports[`component/sidebar/sidebar_channel/SidebarChannel should match snapshot,
             </h4>
           </li>
           <Connect(SidebarChannel)
-            active={true}
+            active={false}
             channelId="c1"
             currentTeamName="test-team"
             currentUserId="my-user-id"
@@ -793,7 +873,7 @@ exports[`component/sidebar/sidebar_channel/SidebarChannel should match snapshot,
             </h4>
           </li>
           <Connect(SidebarChannel)
-            active={true}
+            active={false}
             channelId="c1"
             currentTeamName="test-team"
             currentUserId="my-user-id"
@@ -817,6 +897,46 @@ exports[`component/sidebar/sidebar_channel/SidebarChannel should match snapshot,
         <ul
           className="nav nav-pills nav-stacked"
         >
+          <li>
+            <h4
+              id="dashboard"
+            >
+              <FormattedMessage
+                defaultMessage="DASHBOARD"
+                id="sidebar.dashboard"
+                values={Object {}}
+              />
+            </h4>
+          </li>
+          <li
+            className=""
+            key="dashboard"
+          >
+            <button
+              className="nav-more cursor--pointer style--none btn--block"
+              id="dashboard"
+              onClick={[Function]}
+            >
+              <span
+                style={
+                  Object {
+                    "marginRight": ".5rem",
+                  }
+                }
+              >
+                <MaterialIcon
+                  icon="dashboard"
+                  invert={true}
+                  size={17}
+                />
+              </span>
+              <FormattedMessage
+                defaultMessage="Riff Stats"
+                id="sidebar.dashboard"
+                values={Object {}}
+              />
+            </button>
+          </li>
           <li>
             <h4
               id="publicChannel"
@@ -870,7 +990,7 @@ exports[`component/sidebar/sidebar_channel/SidebarChannel should match snapshot,
             </h4>
           </li>
           <Connect(SidebarChannel)
-            active={true}
+            active={false}
             channelId="c1"
             currentTeamName="test-team"
             currentUserId="my-user-id"
@@ -1194,6 +1314,46 @@ exports[`component/sidebar/sidebar_channel/SidebarChannel should match snapshot,
         >
           <li>
             <h4
+              id="dashboard"
+            >
+              <FormattedMessage
+                defaultMessage="DASHBOARD"
+                id="sidebar.dashboard"
+                values={Object {}}
+              />
+            </h4>
+          </li>
+          <li
+            className=""
+            key="dashboard"
+          >
+            <button
+              className="nav-more cursor--pointer style--none btn--block"
+              id="dashboard"
+              onClick={[Function]}
+            >
+              <span
+                style={
+                  Object {
+                    "marginRight": ".5rem",
+                  }
+                }
+              >
+                <MaterialIcon
+                  icon="dashboard"
+                  invert={true}
+                  size={17}
+                />
+              </span>
+              <FormattedMessage
+                defaultMessage="Riff Stats"
+                id="sidebar.dashboard"
+                values={Object {}}
+              />
+            </button>
+          </li>
+          <li>
+            <h4
               id="publicChannel"
             >
               <FormattedMessage
@@ -1245,7 +1405,7 @@ exports[`component/sidebar/sidebar_channel/SidebarChannel should match snapshot,
             </h4>
           </li>
           <Connect(SidebarChannel)
-            active={true}
+            active={false}
             channelId="c1"
             currentTeamName="test-team"
             currentUserId="my-user-id"
@@ -1548,6 +1708,46 @@ exports[`component/sidebar/sidebar_channel/SidebarChannel should show/hide corre
         >
           <li>
             <h4
+              id="dashboard"
+            >
+              <FormattedMessage
+                defaultMessage="DASHBOARD"
+                id="sidebar.dashboard"
+                values={Object {}}
+              />
+            </h4>
+          </li>
+          <li
+            className=""
+            key="dashboard"
+          >
+            <button
+              className="nav-more cursor--pointer style--none btn--block"
+              id="dashboard"
+              onClick={[Function]}
+            >
+              <span
+                style={
+                  Object {
+                    "marginRight": ".5rem",
+                  }
+                }
+              >
+                <MaterialIcon
+                  icon="dashboard"
+                  invert={true}
+                  size={17}
+                />
+              </span>
+              <FormattedMessage
+                defaultMessage="Riff Stats"
+                id="sidebar.dashboard"
+                values={Object {}}
+              />
+            </button>
+          </li>
+          <li>
+            <h4
               id="publicChannel"
             >
               <FormattedMessage
@@ -1599,7 +1799,7 @@ exports[`component/sidebar/sidebar_channel/SidebarChannel should show/hide corre
             </h4>
           </li>
           <Connect(SidebarChannel)
-            active={true}
+            active={false}
             channelId="c1"
             currentTeamName="test-team"
             currentUserId="my-user-id"
@@ -1894,6 +2094,46 @@ exports[`component/sidebar/sidebar_channel/SidebarChannel should show/hide corre
         >
           <li>
             <h4
+              id="dashboard"
+            >
+              <FormattedMessage
+                defaultMessage="DASHBOARD"
+                id="sidebar.dashboard"
+                values={Object {}}
+              />
+            </h4>
+          </li>
+          <li
+            className=""
+            key="dashboard"
+          >
+            <button
+              className="nav-more cursor--pointer style--none btn--block"
+              id="dashboard"
+              onClick={[Function]}
+            >
+              <span
+                style={
+                  Object {
+                    "marginRight": ".5rem",
+                  }
+                }
+              >
+                <MaterialIcon
+                  icon="dashboard"
+                  invert={true}
+                  size={17}
+                />
+              </span>
+              <FormattedMessage
+                defaultMessage="Riff Stats"
+                id="sidebar.dashboard"
+                values={Object {}}
+              />
+            </button>
+          </li>
+          <li>
+            <h4
               id="publicChannel"
             >
               <FormattedMessage
@@ -1945,7 +2185,7 @@ exports[`component/sidebar/sidebar_channel/SidebarChannel should show/hide corre
             </h4>
           </li>
           <Connect(SidebarChannel)
-            active={true}
+            active={false}
             channelId="c1"
             currentTeamName="test-team"
             currentUserId="my-user-id"
@@ -2244,6 +2484,46 @@ exports[`component/sidebar/sidebar_channel/SidebarChannel should show/hide corre
         >
           <li>
             <h4
+              id="dashboard"
+            >
+              <FormattedMessage
+                defaultMessage="DASHBOARD"
+                id="sidebar.dashboard"
+                values={Object {}}
+              />
+            </h4>
+          </li>
+          <li
+            className=""
+            key="dashboard"
+          >
+            <button
+              className="nav-more cursor--pointer style--none btn--block"
+              id="dashboard"
+              onClick={[Function]}
+            >
+              <span
+                style={
+                  Object {
+                    "marginRight": ".5rem",
+                  }
+                }
+              >
+                <MaterialIcon
+                  icon="dashboard"
+                  invert={true}
+                  size={17}
+                />
+              </span>
+              <FormattedMessage
+                defaultMessage="Riff Stats"
+                id="sidebar.dashboard"
+                values={Object {}}
+              />
+            </button>
+          </li>
+          <li>
+            <h4
               id="publicChannel"
             >
               <FormattedMessage
@@ -2295,7 +2575,7 @@ exports[`component/sidebar/sidebar_channel/SidebarChannel should show/hide corre
             </h4>
           </li>
           <Connect(SidebarChannel)
-            active={true}
+            active={false}
             channelId="c1"
             currentTeamName="test-team"
             currentUserId="my-user-id"
@@ -2590,6 +2870,46 @@ exports[`component/sidebar/sidebar_channel/SidebarChannel should show/hide corre
         >
           <li>
             <h4
+              id="dashboard"
+            >
+              <FormattedMessage
+                defaultMessage="DASHBOARD"
+                id="sidebar.dashboard"
+                values={Object {}}
+              />
+            </h4>
+          </li>
+          <li
+            className=""
+            key="dashboard"
+          >
+            <button
+              className="nav-more cursor--pointer style--none btn--block"
+              id="dashboard"
+              onClick={[Function]}
+            >
+              <span
+                style={
+                  Object {
+                    "marginRight": ".5rem",
+                  }
+                }
+              >
+                <MaterialIcon
+                  icon="dashboard"
+                  invert={true}
+                  size={17}
+                />
+              </span>
+              <FormattedMessage
+                defaultMessage="Riff Stats"
+                id="sidebar.dashboard"
+                values={Object {}}
+              />
+            </button>
+          </li>
+          <li>
+            <h4
               id="publicChannel"
             >
               <FormattedMessage
@@ -2641,7 +2961,7 @@ exports[`component/sidebar/sidebar_channel/SidebarChannel should show/hide corre
             </h4>
           </li>
           <Connect(SidebarChannel)
-            active={true}
+            active={false}
             channelId="c1"
             currentTeamName="test-team"
             currentUserId="my-user-id"
@@ -2936,6 +3256,46 @@ exports[`component/sidebar/sidebar_channel/SidebarChannel should show/hide corre
         >
           <li>
             <h4
+              id="dashboard"
+            >
+              <FormattedMessage
+                defaultMessage="DASHBOARD"
+                id="sidebar.dashboard"
+                values={Object {}}
+              />
+            </h4>
+          </li>
+          <li
+            className=""
+            key="dashboard"
+          >
+            <button
+              className="nav-more cursor--pointer style--none btn--block"
+              id="dashboard"
+              onClick={[Function]}
+            >
+              <span
+                style={
+                  Object {
+                    "marginRight": ".5rem",
+                  }
+                }
+              >
+                <MaterialIcon
+                  icon="dashboard"
+                  invert={true}
+                  size={17}
+                />
+              </span>
+              <FormattedMessage
+                defaultMessage="Riff Stats"
+                id="sidebar.dashboard"
+                values={Object {}}
+              />
+            </button>
+          </li>
+          <li>
+            <h4
               id="publicChannel"
             >
               <FormattedMessage
@@ -2987,7 +3347,7 @@ exports[`component/sidebar/sidebar_channel/SidebarChannel should show/hide corre
             </h4>
           </li>
           <Connect(SidebarChannel)
-            active={true}
+            active={false}
             channelId="c1"
             currentTeamName="test-team"
             currentUserId="my-user-id"
@@ -3282,6 +3642,46 @@ exports[`component/sidebar/sidebar_channel/SidebarChannel should show/hide corre
         >
           <li>
             <h4
+              id="dashboard"
+            >
+              <FormattedMessage
+                defaultMessage="DASHBOARD"
+                id="sidebar.dashboard"
+                values={Object {}}
+              />
+            </h4>
+          </li>
+          <li
+            className=""
+            key="dashboard"
+          >
+            <button
+              className="nav-more cursor--pointer style--none btn--block"
+              id="dashboard"
+              onClick={[Function]}
+            >
+              <span
+                style={
+                  Object {
+                    "marginRight": ".5rem",
+                  }
+                }
+              >
+                <MaterialIcon
+                  icon="dashboard"
+                  invert={true}
+                  size={17}
+                />
+              </span>
+              <FormattedMessage
+                defaultMessage="Riff Stats"
+                id="sidebar.dashboard"
+                values={Object {}}
+              />
+            </button>
+          </li>
+          <li>
+            <h4
               id="publicChannel"
             >
               <FormattedMessage
@@ -3333,7 +3733,7 @@ exports[`component/sidebar/sidebar_channel/SidebarChannel should show/hide corre
             </h4>
           </li>
           <Connect(SidebarChannel)
-            active={true}
+            active={false}
             channelId="c1"
             currentTeamName="test-team"
             currentUserId="my-user-id"

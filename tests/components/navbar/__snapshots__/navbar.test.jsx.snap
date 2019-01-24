@@ -32,7 +32,7 @@ exports[`components/navbar/Navbar should match snapshot, for DM channel 1`] = `
           <MenuIcon
             className="icon icon__menu icon--sidebarHeaderTextColor"
           />
-          <Connect(NotifyCounts) />
+          <NotifyCounts />
         </button>
         <div
           className="navbar-brand"
@@ -54,7 +54,7 @@ exports[`components/navbar/Navbar should match snapshot, for DM channel 1`] = `
                   className=""
                   status="offline"
                 />
-
+                 
               </span>
               <span
                 className="fa fa-angle-down header-dropdown__icon"
@@ -265,7 +265,7 @@ exports[`components/navbar/Navbar should match snapshot, for default channel 1`]
                   status={null}
                 />
                 Town Square
-
+                 
               </span>
               <span
                 className="fa fa-angle-down header-dropdown__icon"
@@ -608,7 +608,7 @@ exports[`components/navbar/Navbar should match snapshot, for private channel 1`]
                   status={null}
                 />
                 display_name
-
+                 
               </span>
               <span
                 className="fa fa-angle-down header-dropdown__icon"
@@ -1060,7 +1060,7 @@ exports[`components/navbar/Navbar should match snapshot, if not licensed 1`] = `
                   status={null}
                 />
                 display_name
-
+                 
               </span>
               <span
                 className="fa fa-angle-down header-dropdown__icon"
@@ -1546,7 +1546,7 @@ exports[`components/navbar/Navbar should match snapshot, valid state 1`] = `
                   status={null}
                 />
                 display_name
-
+                 
               </span>
               <span
                 className="fa fa-angle-down header-dropdown__icon"

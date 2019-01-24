@@ -121,7 +121,7 @@ exports[`components/ChannelHeader should render archived view 1`] = `
                     "manage_public_channel_members",
                   ]
                 }
-                teamId=""
+                teamId="team_id"
               >
                 <li
                   key="view_members"
@@ -182,6 +182,51 @@ exports[`components/ChannelHeader should render archived view 1`] = `
           className="channel-header__description light"
           id="channelHeaderDescription"
         />
+      </div>
+    </div>
+    <div
+      className="flex-child"
+    >
+      <div
+        className="webrtc__header channel-header__icon wide text "
+        style={
+          Object {
+            "cursor": "default",
+          }
+        }
+      >
+        <Link
+          disabled={[Function]}
+          id="videochat"
+          onClick={[Function]}
+          replace={false}
+          target="_blank"
+          to=""
+        >
+          <PopoverStickOnHover
+            component={
+              <div>
+                <span>
+                  Riff chat is disabled until the page fully loads.
+                </span>
+              </div>
+            }
+            delay={100}
+            placement="bottom"
+          >
+            <button
+              className="style--none"
+              disabled={true}
+            >
+              <div
+                className="webrtc__button hidden-xs "
+                id="webrtc-btn"
+              >
+                WebRTC
+              </div>
+            </button>
+          </PopoverStickOnHover>
+        </Link>
       </div>
     </div>
     <div
@@ -417,7 +462,7 @@ exports[`components/ChannelHeader should render correct menu when muted 1`] = `
                     "manage_public_channel_members",
                   ]
                 }
-                teamId=""
+                teamId="team_id"
               >
                 <li
                   key="view_members"
@@ -513,6 +558,51 @@ exports[`components/ChannelHeader should render correct menu when muted 1`] = `
           className="channel-header__description light"
           id="channelHeaderDescription"
         />
+      </div>
+    </div>
+    <div
+      className="flex-child"
+    >
+      <div
+        className="webrtc__header channel-header__icon wide text "
+        style={
+          Object {
+            "cursor": "default",
+          }
+        }
+      >
+        <Link
+          disabled={[Function]}
+          id="videochat"
+          onClick={[Function]}
+          replace={false}
+          target="_blank"
+          to=""
+        >
+          <PopoverStickOnHover
+            component={
+              <div>
+                <span>
+                  Riff chat is disabled until the page fully loads.
+                </span>
+              </div>
+            }
+            delay={100}
+            placement="bottom"
+          >
+            <button
+              className="style--none"
+              disabled={true}
+            >
+              <div
+                className="webrtc__button hidden-xs "
+                id="webrtc-btn"
+              >
+                WebRTC
+              </div>
+            </button>
+          </PopoverStickOnHover>
+        </Link>
       </div>
     </div>
     <div
@@ -756,7 +846,7 @@ exports[`components/ChannelHeader should render properly when populated 1`] = `
                     "manage_public_channel_members",
                   ]
                 }
-                teamId=""
+                teamId="team_id"
               >
                 <li
                   key="view_members"
@@ -817,6 +907,51 @@ exports[`components/ChannelHeader should render properly when populated 1`] = `
           className="channel-header__description light"
           id="channelHeaderDescription"
         />
+      </div>
+    </div>
+    <div
+      className="flex-child"
+    >
+      <div
+        className="webrtc__header channel-header__icon wide text "
+        style={
+          Object {
+            "cursor": "default",
+          }
+        }
+      >
+        <Link
+          disabled={[Function]}
+          id="videochat"
+          onClick={[Function]}
+          replace={false}
+          target="_blank"
+          to=""
+        >
+          <PopoverStickOnHover
+            component={
+              <div>
+                <span>
+                  Riff chat is disabled until the page fully loads.
+                </span>
+              </div>
+            }
+            delay={100}
+            placement="bottom"
+          >
+            <button
+              className="style--none"
+              disabled={true}
+            >
+              <div
+                className="webrtc__button hidden-xs "
+                id="webrtc-btn"
+              >
+                WebRTC
+              </div>
+            </button>
+          </PopoverStickOnHover>
+        </Link>
       </div>
     </div>
     <div
@@ -1056,7 +1191,7 @@ exports[`components/ChannelHeader should render properly when populated with cha
                     "manage_public_channel_members",
                   ]
                 }
-                teamId=""
+                teamId="team_id"
               >
                 <li
                   key="view_members"
@@ -1172,6 +1307,51 @@ exports[`components/ChannelHeader should render properly when populated with cha
             </span>
           </div>
         </OverlayTrigger>
+      </div>
+    </div>
+    <div
+      className="flex-child"
+    >
+      <div
+        className="webrtc__header channel-header__icon wide text "
+        style={
+          Object {
+            "cursor": "default",
+          }
+        }
+      >
+        <Link
+          disabled={[Function]}
+          id="videochat"
+          onClick={[Function]}
+          replace={false}
+          target="_blank"
+          to=""
+        >
+          <PopoverStickOnHover
+            component={
+              <div>
+                <span>
+                  Riff chat is disabled until the page fully loads.
+                </span>
+              </div>
+            }
+            delay={100}
+            placement="bottom"
+          >
+            <button
+              className="style--none"
+              disabled={true}
+            >
+              <div
+                className="webrtc__button hidden-xs "
+                id="webrtc-btn"
+              >
+                WebRTC
+              </div>
+            </button>
+          </PopoverStickOnHover>
+        </Link>
       </div>
     </div>
     <div

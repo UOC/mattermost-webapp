@@ -333,18 +333,6 @@ exports[`components/AdminSidebar should match snapshot 1`] = `
             }
           />
           <AdminSidebarSection
-            name="webrtc"
-            parentLink=""
-            subsection={false}
-            title={
-              <FormattedMessage
-                defaultMessage="WebRTC (Beta)"
-                id="admin.sidebar.webrtc"
-                values={Object {}}
-              />
-            }
-          />
-          <AdminSidebarSection
             name="external"
             parentLink=""
             subsection={false}
@@ -899,18 +887,6 @@ exports[`components/AdminSidebar should match snapshot, not render the plugin in
               <FormattedMessage
                 defaultMessage="Custom Integrations"
                 id="admin.sidebar.customIntegrations"
-                values={Object {}}
-              />
-            }
-          />
-          <AdminSidebarSection
-            name="webrtc"
-            parentLink=""
-            subsection={false}
-            title={
-              <FormattedMessage
-                defaultMessage="WebRTC (Beta)"
-                id="admin.sidebar.webrtc"
                 values={Object {}}
               />
             }
