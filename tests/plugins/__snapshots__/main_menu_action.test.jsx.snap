@@ -131,7 +131,6 @@ exports[`plugins/MainMenuActions should match snapshot and click plugin item for
         <Link
           id="createTeam"
           key="newTeam_a"
-          onClick={[Function]}
           replace={false}
           to="/create_team"
         >
@@ -190,7 +189,6 @@ exports[`plugins/MainMenuActions should match snapshot and click plugin item for
       <li>
         <Link
           id="Integrations"
-          onClick={[Function]}
           replace={false}
           to="/somename/integrations"
         >
@@ -205,7 +203,6 @@ exports[`plugins/MainMenuActions should match snapshot and click plugin item for
     <li>
       <Link
         id="customEmoji"
-        onClick={[Function]}
         replace={false}
         to="/somename/emoji"
       >
@@ -229,7 +226,6 @@ exports[`plugins/MainMenuActions should match snapshot and click plugin item for
       <li>
         <Link
           id="systemConsole"
-          onClick={[Function]}
           replace={false}
           to="/admin_console"
         >
@@ -474,7 +470,6 @@ exports[`plugins/MainMenuActions should match snapshot and click plugin item for
       >
         <li>
           <Link
-            onClick={[Function]}
             replace={false}
             to="/admin_console"
           >

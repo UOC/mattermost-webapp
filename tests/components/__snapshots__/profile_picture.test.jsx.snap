@@ -44,7 +44,6 @@ exports[`components/ProfilePicture should match snapshot, user specified 1`] = `
       <Connect(ProfilePopover)
         hasMention={false}
         hide={[Function]}
-        isBusy={true}
         isRHS={false}
         src="http://example.com/image.png"
         status="away"
@@ -86,7 +85,6 @@ exports[`components/ProfilePicture should match snapshot, user specified, overri
       <Connect(ProfilePopover)
         hasMention={true}
         hide={[Function]}
-        isBusy={true}
         isRHS={true}
         src="http://example.com/image.png"
         status="away"

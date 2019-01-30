@@ -196,12 +196,11 @@ exports[`components/ChannelHeader should render archived view 1`] = `
         }
       >
         <Link
-          disabled={[Function]}
+          disabled={true}
           id="videochat"
           onClick={[Function]}
           replace={false}
           target="_blank"
-          to=""
         >
           <PopoverStickOnHover
             component={
@@ -222,7 +221,14 @@ exports[`components/ChannelHeader should render archived view 1`] = `
                 className="webrtc__button hidden-xs "
                 id="webrtc-btn"
               >
-                WebRTC
+                <span
+                  aria-label="Start a voice chat"
+                  className="icon icon__members"
+                >
+                  <MaterialIcon
+                    icon="voice_chat"
+                  />
+                </span>
               </div>
             </button>
           </PopoverStickOnHover>
@@ -572,12 +578,11 @@ exports[`components/ChannelHeader should render correct menu when muted 1`] = `
         }
       >
         <Link
-          disabled={[Function]}
+          disabled={true}
           id="videochat"
           onClick={[Function]}
           replace={false}
           target="_blank"
-          to=""
         >
           <PopoverStickOnHover
             component={
@@ -598,7 +603,14 @@ exports[`components/ChannelHeader should render correct menu when muted 1`] = `
                 className="webrtc__button hidden-xs "
                 id="webrtc-btn"
               >
-                WebRTC
+                <span
+                  aria-label="Start a voice chat"
+                  className="icon icon__members"
+                >
+                  <MaterialIcon
+                    icon="voice_chat"
+                  />
+                </span>
               </div>
             </button>
           </PopoverStickOnHover>
@@ -921,12 +933,11 @@ exports[`components/ChannelHeader should render properly when populated 1`] = `
         }
       >
         <Link
-          disabled={[Function]}
+          disabled={true}
           id="videochat"
           onClick={[Function]}
           replace={false}
           target="_blank"
-          to=""
         >
           <PopoverStickOnHover
             component={
@@ -947,7 +958,14 @@ exports[`components/ChannelHeader should render properly when populated 1`] = `
                 className="webrtc__button hidden-xs "
                 id="webrtc-btn"
               >
-                WebRTC
+                <span
+                  aria-label="Start a voice chat"
+                  className="icon icon__members"
+                >
+                  <MaterialIcon
+                    icon="voice_chat"
+                  />
+                </span>
               </div>
             </button>
           </PopoverStickOnHover>
@@ -1321,12 +1339,11 @@ exports[`components/ChannelHeader should render properly when populated with cha
         }
       >
         <Link
-          disabled={[Function]}
+          disabled={true}
           id="videochat"
           onClick={[Function]}
           replace={false}
           target="_blank"
-          to=""
         >
           <PopoverStickOnHover
             component={
@@ -1347,7 +1364,14 @@ exports[`components/ChannelHeader should render properly when populated with cha
                 className="webrtc__button hidden-xs "
                 id="webrtc-btn"
               >
-                WebRTC
+                <span
+                  aria-label="Start a voice chat"
+                  className="icon icon__members"
+                >
+                  <MaterialIcon
+                    icon="voice_chat"
+                  />
+                </span>
               </div>
             </button>
           </PopoverStickOnHover>
