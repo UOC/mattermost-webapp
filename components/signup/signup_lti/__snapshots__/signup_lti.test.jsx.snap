@@ -1,0 +1,484 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/signup/SignupLTI should match snapshot 1`] = `
+<div>
+  <BackButton
+    url="/"
+  />
+  <div
+    className="col-sm-12"
+  >
+    <div
+      className="signup-team__container padding--less"
+    >
+      <img
+        alt=""
+        className="signup-team-logo"
+        src={null}
+      />
+      <SiteNameAndDescription
+        customDescriptionText=""
+        siteName="Mattermost"
+      />
+      <p
+        className="color--light h4"
+      >
+        <FormattedMessage
+          defaultMessage="Let's create your account"
+          id="signup_user_completed.lets"
+          values={Object {}}
+        />
+      </p>
+      <div
+        className="form-group has-error"
+      >
+        <label
+          className="control-label"
+        >
+          <FormattedMessage
+            defaultMessage="There was an error with your login request. Please try again or contact your system administrator."
+            id="signup_LTI.invalid_request"
+            values={Object {}}
+          />
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`components/signup/SignupLTI should pick email, username and full name from state 1`] = `
+<div>
+  <BackButton
+    url="/"
+  />
+  <div
+    className="col-sm-12"
+  >
+    <div
+      className="signup-team__container padding--less"
+    >
+      <img
+        alt=""
+        className="signup-team-logo"
+        src={null}
+      />
+      <SiteNameAndDescription
+        customDescriptionText=""
+        siteName="Mattermost"
+      />
+      <p
+        className="color--light h4"
+      >
+        <FormattedMessage
+          defaultMessage="Let's create your account"
+          id="signup_user_completed.lets"
+          values={Object {}}
+        />
+      </p>
+      <form>
+        <div
+          className="inner__content"
+        >
+          <div
+            className="margin--extra"
+          >
+            <p
+              className="h5"
+            >
+              <strong>
+                <FormattedMessage
+                  defaultMessage="Full Name"
+                  id="signup_LTI.fullname"
+                  values={Object {}}
+                />
+              </strong>
+            </p>
+            <div
+              className="form-group"
+            >
+              <input
+                aria-describedby="fullname-disabled-label"
+                aria-label="Full Name"
+                className="form-control"
+                disabled={true}
+                id="fullname"
+                type="text"
+                value=""
+              />
+              <span
+                className="help-block"
+                id="fullname-disabled-label"
+              >
+                <FormattedMessage
+                  id="signup_user_completed.textInputDisabled"
+                  values={
+                    Object {
+                      "value": "name",
+                    }
+                  }
+                />
+              </span>
+            </div>
+          </div>
+          <div
+            className="margin--extra"
+          >
+            <p
+              className="h5"
+            >
+              <strong>
+                <FormattedMessage
+                  defaultMessage="Username"
+                  id="signup_LTI.username"
+                  values={Object {}}
+                />
+              </strong>
+            </p>
+            <div
+              className="form-group"
+            >
+              <input
+                aria-describedby="username-disabled-label"
+                aria-label="Username"
+                className="form-control"
+                disabled={true}
+                id="username"
+                type="text"
+                value="test"
+              />
+              <span
+                className="help-block"
+                id="username-disabled-label"
+              >
+                <FormattedMessage
+                  id="signup_user_completed.textInputDisabled"
+                  values={
+                    Object {
+                      "value": "username",
+                    }
+                  }
+                />
+              </span>
+            </div>
+          </div>
+          <div
+            className="margin--extra"
+          >
+            <p
+              className="h5"
+            >
+              <strong>
+                <FormattedMessage
+                  defaultMessage="Email Address"
+                  id="signup_LTI.email"
+                  values={Object {}}
+                />
+              </strong>
+            </p>
+            <div
+              className="form-group"
+            >
+              <input
+                aria-describedby="email-disabled-label"
+                aria-label="Email Address"
+                className="form-control"
+                disabled={true}
+                id="email"
+                type="email"
+                value="test@nowhere.com"
+              />
+            </div>
+          </div>
+          <span
+            id="email-disabled-label"
+          >
+            <injectIntl(FormattedMarkdownMessage)
+              defaultMessage="Your email address is **{email}**. You'll use this address to sign in to {siteName}."
+              id="signup_user_completed.emailIs"
+              values={
+                Object {
+                  "email": "test@nowhere.com",
+                  "siteName": "Mattermost",
+                }
+              }
+            />
+          </span>
+          <div
+            className="margin--extra"
+          >
+            <p
+              className="h5"
+            >
+              <strong>
+                <FormattedMessage
+                  defaultMessage="Choose your password"
+                  id="signup_user_completed.choosePwd"
+                  values={Object {}}
+                />
+              </strong>
+            </p>
+            <div
+              className="form-group"
+            >
+              <input
+                aria-describedby="password-error"
+                aria-label="Choose your password"
+                className="form-control"
+                id="password"
+                maxLength="128"
+                placeholder=""
+                spellCheck="false"
+                type="password"
+              />
+            </div>
+          </div>
+          <p
+            className="margin--extra"
+          >
+            <injectIntl(FormattedMarkdownMessage)
+              defaultMessage="By proceeding to create your account and use {siteName}, you agree to our [Terms of Service]({TermsOfServiceLink}) and [Privacy Policy]({PrivacyPolicyLink}). If you do not agree, you cannot use {siteName}."
+              id="create_team.agreement"
+              values={
+                Object {
+                  "PrivacyPolicyLink": "",
+                  "TermsOfServiceLink": "",
+                  "siteName": "Mattermost",
+                }
+              }
+            />
+          </p>
+          <p
+            className="margin--extra"
+          >
+            <button
+              className="btn-primary btn"
+              disabled={false}
+              id="createAccountButton"
+              onClick={[Function]}
+              type="submit"
+            >
+              <FormattedMessage
+                defaultMessage="Create Account"
+                id="signup_user_completed.create"
+                values={Object {}}
+              />
+            </button>
+          </p>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`components/signup/SignupLTI should redirect to / when not signup with lti disabled 1`] = `
+<div>
+  <BackButton
+    url="/"
+  />
+  <div
+    className="col-sm-12"
+  >
+    <div
+      className="signup-team__container padding--less"
+    >
+      <img
+        alt=""
+        className="signup-team-logo"
+        src={null}
+      />
+      <SiteNameAndDescription
+        customDescriptionText=""
+        siteName="Mattermost"
+      />
+      <p
+        className="color--light h4"
+      >
+        <FormattedMessage
+          defaultMessage="Let's create your account"
+          id="signup_user_completed.lets"
+          values={Object {}}
+        />
+      </p>
+      <form>
+        <div
+          className="inner__content"
+        >
+          <div
+            className="margin--extra"
+          >
+            <p
+              className="h5"
+            >
+              <strong>
+                <FormattedMessage
+                  defaultMessage="Full Name"
+                  id="signup_LTI.fullname"
+                  values={Object {}}
+                />
+              </strong>
+            </p>
+            <div
+              className="form-group"
+            >
+              <input
+                aria-describedby="fullname-disabled-label"
+                aria-label="Full Name"
+                className="form-control"
+                disabled={true}
+                id="fullname"
+                type="text"
+                value=""
+              />
+              <span
+                className="help-block"
+                id="fullname-disabled-label"
+              >
+                <FormattedMessage
+                  id="signup_user_completed.textInputDisabled"
+                  values={
+                    Object {
+                      "value": "name",
+                    }
+                  }
+                />
+              </span>
+            </div>
+          </div>
+          <div
+            className="margin--extra"
+          >
+            <p
+              className="h5"
+            >
+              <strong>
+                <FormattedMessage
+                  defaultMessage="Username"
+                  id="signup_LTI.username"
+                  values={Object {}}
+                />
+              </strong>
+            </p>
+            <div
+              className="form-group"
+            >
+              <input
+                aria-describedby="username-disabled-label"
+                aria-label="Username"
+                className="form-control"
+                disabled={true}
+                id="username"
+                type="text"
+                value=""
+              />
+              <span
+                className="help-block"
+                id="username-disabled-label"
+              >
+                <FormattedMessage
+                  id="signup_user_completed.textInputDisabled"
+                  values={
+                    Object {
+                      "value": "username",
+                    }
+                  }
+                />
+              </span>
+            </div>
+          </div>
+          <div
+            className="margin--extra"
+          >
+            <p
+              className="h5"
+            >
+              <strong>
+                <FormattedMessage
+                  defaultMessage="Email Address"
+                  id="signup_LTI.email"
+                  values={Object {}}
+                />
+              </strong>
+            </p>
+            <div
+              className="form-group"
+            >
+              <input
+                aria-describedby="email-disabled-label"
+                aria-label="Email Address"
+                className="form-control"
+                disabled={true}
+                id="email"
+                type="email"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            className="margin--extra"
+          >
+            <p
+              className="h5"
+            >
+              <strong>
+                <FormattedMessage
+                  defaultMessage="Choose your password"
+                  id="signup_user_completed.choosePwd"
+                  values={Object {}}
+                />
+              </strong>
+            </p>
+            <div
+              className="form-group"
+            >
+              <input
+                aria-describedby="password-error"
+                aria-label="Choose your password"
+                className="form-control"
+                id="password"
+                maxLength="128"
+                placeholder=""
+                spellCheck="false"
+                type="password"
+              />
+            </div>
+          </div>
+          <p
+            className="margin--extra"
+          >
+            <injectIntl(FormattedMarkdownMessage)
+              defaultMessage="By proceeding to create your account and use {siteName}, you agree to our [Terms of Service]({TermsOfServiceLink}) and [Privacy Policy]({PrivacyPolicyLink}). If you do not agree, you cannot use {siteName}."
+              id="create_team.agreement"
+              values={
+                Object {
+                  "PrivacyPolicyLink": "",
+                  "TermsOfServiceLink": "",
+                  "siteName": "Mattermost",
+                }
+              }
+            />
+          </p>
+          <p
+            className="margin--extra"
+          >
+            <button
+              className="btn-primary btn"
+              disabled={false}
+              id="createAccountButton"
+              onClick={[Function]}
+              type="submit"
+            >
+              <FormattedMessage
+                defaultMessage="Create Account"
+                id="signup_user_completed.create"
+                values={Object {}}
+              />
+            </button>
+          </p>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;

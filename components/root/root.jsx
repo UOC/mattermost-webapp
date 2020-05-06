@@ -36,6 +36,7 @@ const LazyPasswordResetSendLink = React.lazy(() => import('components/password_r
 const LazyPasswordResetForm = React.lazy(() => import('components/password_reset_form'));
 const LazySignupController = React.lazy(() => import('components/signup/signup_controller'));
 const LazySignupEmail = React.lazy(() => import('components/signup/signup_email'));
+const LazySignupLTI = React.lazy(() => import('components/signup/signup_lti'));
 const LazyTermsOfService = React.lazy(() => import('components/terms_of_service'));
 const LazyShouldVerifyEmail = React.lazy(() => import('components/should_verify_email'));
 const LazyDoVerifyEmail = React.lazy(() => import('components/do_verify_email'));
@@ -63,6 +64,7 @@ const PasswordResetSendLink = makeAsyncComponent(LazyPasswordResetSendLink);
 const PasswordResetForm = makeAsyncComponent(LazyPasswordResetForm);
 const SignupController = makeAsyncComponent(LazySignupController);
 const SignupEmail = makeAsyncComponent(LazySignupEmail);
+const SignupLTI = makeAsyncComponent(LazySignupLTI);
 const ShouldVerifyEmail = makeAsyncComponent(LazyShouldVerifyEmail);
 const DoVerifyEmail = makeAsyncComponent(LazyDoVerifyEmail);
 const ClaimController = makeAsyncComponent(LazyClaimController);
@@ -300,6 +302,10 @@ export default class Root extends React.PureComponent {
                     <HFTRoute
                         path={'/signup_email'}
                         component={SignupEmail}
+                    />
+                    <HFTRoute
+                        path={'/signup_lti'}
+                        component={SignupLTI}
                     />
                     <HFTRoute
                         path={'/should_verify_email'}

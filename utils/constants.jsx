@@ -953,6 +953,13 @@ export const ZoomSettings = {
     MAX_SCALE: 3.0,
 };
 
+export const LTIConstants = {
+    EMAIL_FIELD: 'lis_person_contact_email_primary',
+    USERNAME_FIELD: 'lis_person_sourcedid',
+    LAUNCH_DATA_COOKIE: 'MMLTILAUNCHDATA',
+    NAME_COOKIE: 'MMLTINAME',
+};
+
 export const Constants = {
     SettingsTypes,
     JobTypes,
@@ -969,6 +976,8 @@ export const Constants = {
     FileTypes,
     Locations,
     PostListRowListIds,
+    LTIConstants,
+
     MAX_POST_VISIBILITY: 1000000,
 
     IGNORE_POST_TYPES: [PostTypes.JOIN_LEAVE, PostTypes.JOIN_TEAM, PostTypes.LEAVE_TEAM, PostTypes.JOIN_CHANNEL, PostTypes.LEAVE_CHANNEL, PostTypes.REMOVE_FROM_CHANNEL, PostTypes.ADD_REMOVE],
