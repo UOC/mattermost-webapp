@@ -1,10 +1,21 @@
 {
-  "name": "@mattermost/webapp",
+  "name": "@rifflearning/mm-webapp",
+  "version": "5.39.1-riff.0",
+  "private": true,
+  "contributors": [
+    "Dan Calacci <dan@rifflearning.com>",
+    "Jordan Reedie <jordan@riffanalytics.ai>",
+    "Mike Lippert <mike@riffanalytics.ai>",
+    "Brec Hanson <brec@rifflearning.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rifflearning/mattermost-webapp.git"
+  },
+  "bugs": "https://github.com/rifflearning/mattermost-webapp/issues",
   "browser": {
     "./client/web_client.jsx": "./client/browser_web_client.jsx"
   },
-  "version": "5.36.0-0",
-  "private": true,
   "dependencies": {
     "@formatjs/intl-pluralrules": "4.0.6",
     "@formatjs/intl-relativetimeformat": "6.2.3",
