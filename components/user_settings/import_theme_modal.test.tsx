@@ -4,6 +4,8 @@
 import React from 'react';
 
 import {Theme} from 'mattermost-redux/types/preferences';
+import {Preferences} from 'mattermost-redux/constants';
+import {blendColors} from 'mattermost-redux/utils/theme_utils';
 
 import {mountWithIntl, shallowWithIntl} from 'tests/helpers/intl-test-helper';
 
@@ -16,36 +18,37 @@ describe('components/user_settings/ImportThemeModal', () => {
     });
 
     it('should correctly parse a Slack theme', () => {
-        const theme: Theme = {
-            sidebarBg: '#1d2229',
-            sidebarText: '#ffffff',
-            sidebarUnreadText: '#ffffff',
-            sidebarTextHoverBg: '#313843',
-            sidebarTextActiveBorder: '#537aa6',
-            sidebarTextActiveColor: '#ffffff',
-            sidebarHeaderBg: '#0b161e',
-            sidebarTeamBarBg: '#081118',
-            sidebarHeaderTextColor: '#ffffff',
-            onlineIndicator: '#94e864',
-            awayIndicator: '#ffbc42',
-            dndIndicator: '#f74343',
-            mentionBg: '#78af8f',
-            mentionBj: '#ffffff',
-            mentionColor: '#145dbf',
-            centerChannelBg: '#ffffff',
-            centerChannelColor: '#3d3c40',
-            newMessageSeparator: '#ff8800',
-            linkColor: '#2389d7',
-            buttonBg: '#166de0',
-            buttonColor: '#ffffff',
-            errorTextColor: '#fd5960',
-            mentionHighlightBg: '#ffe577',
-            mentionHighlightLink: '#166de0',
-            codeTheme: 'github',
-            type: 'custom',
-        };
+        const slackThemeProps: Array<[keyof Theme | null, string]> = [
+            ['sidebarBg', '#010101'],
+            ['sidebarHeaderBg', '#a2a2a2'],
+            ['sidebarTextActiveBorder', '#030303'],
+            ['sidebarTextActiveColor', '#040404'],
+            ['sidebarTextHoverBg', '#050505'],
+            ['sidebarText', '#060606'],
+            ['onlineIndicator', '#070707'],
+            ['mentionBg', '#080808'],
+            [null, '#090909'], // topNavBg: desktop only, not used by MM
+            [null, '#0a0a0a'], // topNavText: desktop only, not used by MM
+        ];
+        const slackTheme: Theme = slackThemeProps.reduce(
+            (theme: Theme, prop: [keyof Theme | null, string]) => {
+                if (prop[0] !== null) {
+                    theme[prop[0]] = prop[1];
+                }
+                return theme;
+            },
+            {...Preferences.THEMES.default, type: 'custom'},
+        );
 
-        const themeString = '#1d2229,#0b161e,#537aa6,#ffffff,#313843,#ffffff,#94e864,#78af8f,#0b161e,#ffffff';
+        // the slack sidebarText also applies to 2 other MM theme props:
+        const sidebarText = slackThemeProps.find((p) => p[0] === 'sidebarText')?.[1] || '#01233210';
+        slackTheme.sidebarHeaderTextColor = sidebarText;
+        slackTheme.sidebarUnreadText = sidebarText;
+
+        // the slack sidebarHeaderBg is also used to set the sidebarTeamBarBg using blendColors
+        slackTheme.sidebarTeamBarBg = blendColors(slackTheme.sidebarHeaderBg, '#000000', 0.2, true);
+
+        const themeString = slackThemeProps.map((p) => p[1]).join(',');
         const wrapper = mountWithIntl(<ImportThemeModal/>);
         const instance = wrapper.instance();
 
@@ -58,6 +61,6 @@ describe('components/user_settings/ImportThemeModal', () => {
 
         wrapper.find('#submitButton').simulate('click');
 
-        expect(callback).toHaveBeenCalledWith(theme);
+        expect(callback).toHaveBeenCalledWith(slackTheme);
     });
 });
