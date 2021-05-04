@@ -1,0 +1,48 @@
+# Continuous Integration Workflow to check on every push:
+# - code style guidelines are followed (make check-style)
+# - typescript type checks pass (make check-types)
+# - unit test checks pass (npm run test-ci)
+# - code builds (make package-ci)
+name: CI
+
+on:
+  push:
+    branches:
+      - '**'
+
+jobs:
+  ci:
+    name: all checks
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Use Node.js v14.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+          registry-url: https://npm.pkg.github.com/
+
+      - uses: actions/checkout@v2
+
+      - name: Cache node modules
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install dependencies based on package-lock.json
+        run: npm ci
+
+      - name: Check code style
+        run: make check-style
+
+      - name: Check typescript style
+        run: make check-types
+
+      - name: Test
+        run: npm run test-ci
+
+      - name: Build
+        run: make package-ci
