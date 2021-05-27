@@ -398,12 +398,12 @@ export default class TeamDetails extends React.PureComponent {
         };
 
         if (newState.isLocalArchived) {
-            // if the channel is being archived then clear the other server
+            // if the team is being archived then clear the other server
             // errors, they're no longer relevant.
             newState.previousServerError = serverError;
             newState.serverError = null;
         } else {
-            // if the channel is being unarchived (maybe the user had toggled
+            // if the team is being unarchived (maybe the user had toggled
             // and untoggled) the button, so reinstate any server errors that
             // were present.
             newState.serverError = previousServerError;

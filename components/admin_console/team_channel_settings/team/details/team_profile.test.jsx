@@ -14,6 +14,7 @@ describe('admin_console/team_channel_settings/team/TeamProfile', () => {
         onToggleArchive: jest.fn(),
         isArchived: false,
     };
+
     test('should match snapshot', () => {
         const wrapper = shallow(
             <TeamProfile

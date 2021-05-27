@@ -69,6 +69,7 @@ export function TeamProfile({team, isArchived, isDisabled, onToggleArchive}) {
 
                         </div>
                     </div>
+                    {/* We are using same classes used for Archive Channel button so that we can use the same styling as Arvhive channel button */}
                     <div className='AdminChannelDetails_archiveContainer'>
                         <button
                             type='button'
@@ -85,6 +86,8 @@ export function TeamProfile({team, isArchived, isDisabled, onToggleArchive}) {
                             onClick={onToggleArchive}
                         >
                             {isArchived ? (
+
+                                // Channel classNames are used so that we can use same CSS styling as Archive channel button
                                 <UnarchiveIcon className='channel-icon channel-icon__unarchive'/>
                             ) : (
                                 <ArchiveIcon className='channel-icon channel-icon__archive'/>
