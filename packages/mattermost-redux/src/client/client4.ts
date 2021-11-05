@@ -232,6 +232,10 @@ export default class Client4 {
         return `${this.url}/plugins/com.mattermost.apps`;
     }
 
+    getLTIRoute() {
+        return `${this.getBaseRoute()}/lti`;
+    }
+
     getUsersRoute() {
         return `${this.getBaseRoute()}/users`;
     }
@@ -504,6 +508,13 @@ export default class Client4 {
             {method: 'post', body: JSON.stringify(user)},
         );
     }
+
+    createLTIUser = (data: {password: string}) => {
+        return this.doFetch<UserProfile>(
+            `${this.getLTIRoute()}/signup`,
+            {method: 'post', body: JSON.stringify(data)},
+        );
+    };
 
     patchMe = (userPatch: Partial<UserProfile>) => {
         return this.doFetch<UserProfile>(

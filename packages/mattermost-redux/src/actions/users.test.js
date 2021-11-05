@@ -53,6 +53,17 @@ describe('Actions.Users', () => {
         assert.ok(profiles[user.id]);
     });
 
+    it('createLTIUser', async () => {
+        const userToCreate = TestHelper.fakeUser();
+        nock(Client4.getLTIRoute()).
+            post('/signup').
+            reply(200, {redirect: 'foo'});
+
+        const {data} = await Actions.createLTIUser(userToCreate)(store.dispatch, store.getState);
+
+        assert.equal(data.redirect, 'foo');
+    });
+
     it('login', async () => {
         const user = TestHelper.basicUser;
 
