@@ -75,7 +75,7 @@ describe('ThemeUtils', () => {
 
             assert.deepEqual(ThemeUtils.setThemeDefaults(input), {
                 ...expected,
-                sidebarTeamBarBg: '#0d4288',
+                sidebarTeamBarBg: ThemeUtils.blendColors(expected.sidebarHeaderBg, '#000000', 0.2, true),
             });
         });
 
