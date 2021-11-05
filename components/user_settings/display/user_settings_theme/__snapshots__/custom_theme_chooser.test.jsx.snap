@@ -55,7 +55,7 @@ exports[`components/user_settings/display/CustomThemeChooser should match, init 
             />
           }
           onChange={[Function]}
-          value="#145dbf"
+          value="#4e3060"
         />
       </div>
       <div
@@ -87,7 +87,7 @@ exports[`components/user_settings/display/CustomThemeChooser should match, init 
             />
           }
           onChange={[Function]}
-          value="#1153ab"
+          value="#4e3060"
         />
       </div>
       <div
@@ -103,7 +103,7 @@ exports[`components/user_settings/display/CustomThemeChooser should match, init 
             />
           }
           onChange={[Function]}
-          value="#0b428c"
+          value="#3e264c"
         />
       </div>
       <div
@@ -151,7 +151,7 @@ exports[`components/user_settings/display/CustomThemeChooser should match, init 
             />
           }
           onChange={[Function]}
-          value="#4578bf"
+          value="#6f5d7d"
         />
       </div>
       <div
@@ -167,7 +167,7 @@ exports[`components/user_settings/display/CustomThemeChooser should match, init 
             />
           }
           onChange={[Function]}
-          value="#579eff"
+          value="#b5a2bf"
         />
       </div>
       <div
@@ -199,7 +199,7 @@ exports[`components/user_settings/display/CustomThemeChooser should match, init 
             />
           }
           onChange={[Function]}
-          value="#06d6a0"
+          value="#8dde5d"
         />
       </div>
       <div
@@ -215,7 +215,7 @@ exports[`components/user_settings/display/CustomThemeChooser should match, init 
             />
           }
           onChange={[Function]}
-          value="#ffbc42"
+          value="#ff8b2c"
         />
       </div>
       <div
@@ -231,7 +231,7 @@ exports[`components/user_settings/display/CustomThemeChooser should match, init 
             />
           }
           onChange={[Function]}
-          value="#f74343"
+          value="#ff5f5f"
         />
       </div>
       <div
@@ -247,7 +247,7 @@ exports[`components/user_settings/display/CustomThemeChooser should match, init 
             />
           }
           onChange={[Function]}
-          value="#ffffff"
+          value="#fbfbfb"
         />
       </div>
       <div
@@ -263,7 +263,7 @@ exports[`components/user_settings/display/CustomThemeChooser should match, init 
             />
           }
           onChange={[Function]}
-          value="#145dbf"
+          value="#0f758e"
         />
       </div>
     </div>
@@ -320,7 +320,7 @@ exports[`components/user_settings/display/CustomThemeChooser should match, init 
             />
           }
           onChange={[Function]}
-          value="#ffffff"
+          value="#f5f5f5"
         />
       </div>
       <div
@@ -336,7 +336,7 @@ exports[`components/user_settings/display/CustomThemeChooser should match, init 
             />
           }
           onChange={[Function]}
-          value="#3d3c40"
+          value="#4a4a4a"
         />
       </div>
       <div
@@ -368,7 +368,7 @@ exports[`components/user_settings/display/CustomThemeChooser should match, init 
             />
           }
           onChange={[Function]}
-          value="#fd5960"
+          value="#ce5252"
         />
       </div>
       <div
@@ -384,7 +384,7 @@ exports[`components/user_settings/display/CustomThemeChooser should match, init 
             />
           }
           onChange={[Function]}
-          value="#ffe577"
+          value="#fdff8e"
         />
       </div>
       <div
@@ -400,7 +400,7 @@ exports[`components/user_settings/display/CustomThemeChooser should match, init 
             />
           }
           onChange={[Function]}
-          value="#166de0"
+          value="#0f758e"
         />
       </div>
       <div
@@ -540,7 +540,7 @@ exports[`components/user_settings/display/CustomThemeChooser should match, init 
             />
           }
           onChange={[Function]}
-          value="#2389d7"
+          value="#0f758e"
         />
       </div>
       <div
@@ -556,7 +556,7 @@ exports[`components/user_settings/display/CustomThemeChooser should match, init 
             />
           }
           onChange={[Function]}
-          value="#166de0"
+          value="#0f758e"
         />
       </div>
       <div
@@ -598,7 +598,7 @@ exports[`components/user_settings/display/CustomThemeChooser should match, init 
         onClick={[Function]}
         onCopy={[Function]}
         onPaste={[Function]}
-        value="{\\"sidebarBg\\":\\"#145dbf\\",\\"sidebarText\\":\\"#ffffff\\",\\"sidebarUnreadText\\":\\"#ffffff\\",\\"sidebarTextHoverBg\\":\\"#4578bf\\",\\"sidebarTextActiveBorder\\":\\"#579eff\\",\\"sidebarTextActiveColor\\":\\"#ffffff\\",\\"sidebarHeaderBg\\":\\"#1153ab\\",\\"sidebarTeamBarBg\\":\\"#0b428c\\",\\"sidebarHeaderTextColor\\":\\"#ffffff\\",\\"onlineIndicator\\":\\"#06d6a0\\",\\"awayIndicator\\":\\"#ffbc42\\",\\"dndIndicator\\":\\"#f74343\\",\\"mentionBg\\":\\"#ffffff\\",\\"mentionBj\\":\\"#ffffff\\",\\"mentionColor\\":\\"#145dbf\\",\\"centerChannelBg\\":\\"#ffffff\\",\\"centerChannelColor\\":\\"#3d3c40\\",\\"newMessageSeparator\\":\\"#ff8800\\",\\"linkColor\\":\\"#2389d7\\",\\"buttonBg\\":\\"#166de0\\",\\"buttonColor\\":\\"#ffffff\\",\\"errorTextColor\\":\\"#fd5960\\",\\"mentionHighlightBg\\":\\"#ffe577\\",\\"mentionHighlightLink\\":\\"#166de0\\",\\"codeTheme\\":\\"github\\"}"
+        value="{\\"sidebarBg\\":\\"#4e3060\\",\\"sidebarText\\":\\"#ffffff\\",\\"sidebarUnreadText\\":\\"#ffffff\\",\\"sidebarTextHoverBg\\":\\"#6f5d7d\\",\\"sidebarTextActiveBorder\\":\\"#b5a2bf\\",\\"sidebarTextActiveColor\\":\\"#ffffff\\",\\"sidebarHeaderBg\\":\\"#4e3060\\",\\"sidebarTeamBarBg\\":\\"#3e264c\\",\\"sidebarHeaderTextColor\\":\\"#ffffff\\",\\"onlineIndicator\\":\\"#8dde5d\\",\\"awayIndicator\\":\\"#ff8b2c\\",\\"dndIndicator\\":\\"#ff5f5f\\",\\"mentionBg\\":\\"#fbfbfb\\",\\"mentionBj\\":\\"#fbfbfb\\",\\"mentionColor\\":\\"#0f758e\\",\\"centerChannelBg\\":\\"#f5f5f5\\",\\"centerChannelColor\\":\\"#4a4a4a\\",\\"newMessageSeparator\\":\\"#ff8800\\",\\"linkColor\\":\\"#0f758e\\",\\"buttonBg\\":\\"#0f758e\\",\\"buttonColor\\":\\"#ffffff\\",\\"errorTextColor\\":\\"#ce5252\\",\\"mentionHighlightBg\\":\\"#fdff8e\\",\\"mentionHighlightLink\\":\\"#0f758e\\",\\"codeTheme\\":\\"github\\"}"
       />
       <div
         className="mt-3"
