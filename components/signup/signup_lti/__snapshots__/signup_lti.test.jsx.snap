@@ -23,10 +23,9 @@ exports[`components/signup/SignupLTI should match snapshot 1`] = `
       <p
         className="color--light h4"
       >
-        <FormattedMessage
+        <MemoizedFormattedMessage
           defaultMessage="Let's create your account"
           id="signup_user_completed.lets"
-          values={Object {}}
         />
       </p>
       <div
@@ -35,10 +34,9 @@ exports[`components/signup/SignupLTI should match snapshot 1`] = `
         <label
           className="control-label"
         >
-          <FormattedMessage
+          <MemoizedFormattedMessage
             defaultMessage="There was an error with your login request. Please try again or contact your system administrator."
             id="signup_LTI.invalid_request"
-            values={Object {}}
           />
         </label>
       </div>
@@ -70,10 +68,9 @@ exports[`components/signup/SignupLTI should pick email, username and full name f
       <p
         className="color--light h4"
       >
-        <FormattedMessage
+        <MemoizedFormattedMessage
           defaultMessage="Let's create your account"
           id="signup_user_completed.lets"
-          values={Object {}}
         />
       </p>
       <form>
@@ -87,10 +84,9 @@ exports[`components/signup/SignupLTI should pick email, username and full name f
               className="h5"
             >
               <strong>
-                <FormattedMessage
+                <MemoizedFormattedMessage
                   defaultMessage="Full Name"
                   id="signup_LTI.fullname"
-                  values={Object {}}
                 />
               </strong>
             </p>
@@ -110,7 +106,7 @@ exports[`components/signup/SignupLTI should pick email, username and full name f
                 className="help-block"
                 id="fullname-disabled-label"
               >
-                <FormattedMessage
+                <MemoizedFormattedMessage
                   id="signup_user_completed.textInputDisabled"
                   values={
                     Object {
@@ -128,10 +124,9 @@ exports[`components/signup/SignupLTI should pick email, username and full name f
               className="h5"
             >
               <strong>
-                <FormattedMessage
+                <MemoizedFormattedMessage
                   defaultMessage="Username"
                   id="signup_LTI.username"
-                  values={Object {}}
                 />
               </strong>
             </p>
@@ -151,7 +146,7 @@ exports[`components/signup/SignupLTI should pick email, username and full name f
                 className="help-block"
                 id="username-disabled-label"
               >
-                <FormattedMessage
+                <MemoizedFormattedMessage
                   id="signup_user_completed.textInputDisabled"
                   values={
                     Object {
@@ -169,10 +164,9 @@ exports[`components/signup/SignupLTI should pick email, username and full name f
               className="h5"
             >
               <strong>
-                <FormattedMessage
+                <MemoizedFormattedMessage
                   defaultMessage="Email Address"
                   id="signup_LTI.email"
-                  values={Object {}}
                 />
               </strong>
             </p>
@@ -211,10 +205,9 @@ exports[`components/signup/SignupLTI should pick email, username and full name f
               className="h5"
             >
               <strong>
-                <FormattedMessage
+                <MemoizedFormattedMessage
                   defaultMessage="Choose your password"
                   id="signup_user_completed.choosePwd"
-                  values={Object {}}
                 />
               </strong>
             </p>
@@ -227,9 +220,11 @@ exports[`components/signup/SignupLTI should pick email, username and full name f
                 className="form-control"
                 id="password"
                 maxLength="128"
+                onInput={[Function]}
                 placeholder=""
                 spellCheck="false"
                 type="password"
+                value=""
               />
             </div>
           </div>
@@ -258,10 +253,9 @@ exports[`components/signup/SignupLTI should pick email, username and full name f
               onClick={[Function]}
               type="submit"
             >
-              <FormattedMessage
+              <MemoizedFormattedMessage
                 defaultMessage="Create Account"
                 id="signup_user_completed.create"
-                values={Object {}}
               />
             </button>
           </p>
@@ -295,10 +289,9 @@ exports[`components/signup/SignupLTI should redirect to / when not signup with l
       <p
         className="color--light h4"
       >
-        <FormattedMessage
+        <MemoizedFormattedMessage
           defaultMessage="Let's create your account"
           id="signup_user_completed.lets"
-          values={Object {}}
         />
       </p>
       <form>
@@ -312,10 +305,9 @@ exports[`components/signup/SignupLTI should redirect to / when not signup with l
               className="h5"
             >
               <strong>
-                <FormattedMessage
+                <MemoizedFormattedMessage
                   defaultMessage="Full Name"
                   id="signup_LTI.fullname"
-                  values={Object {}}
                 />
               </strong>
             </p>
@@ -335,7 +327,7 @@ exports[`components/signup/SignupLTI should redirect to / when not signup with l
                 className="help-block"
                 id="fullname-disabled-label"
               >
-                <FormattedMessage
+                <MemoizedFormattedMessage
                   id="signup_user_completed.textInputDisabled"
                   values={
                     Object {
@@ -353,10 +345,9 @@ exports[`components/signup/SignupLTI should redirect to / when not signup with l
               className="h5"
             >
               <strong>
-                <FormattedMessage
+                <MemoizedFormattedMessage
                   defaultMessage="Username"
                   id="signup_LTI.username"
-                  values={Object {}}
                 />
               </strong>
             </p>
@@ -376,7 +367,7 @@ exports[`components/signup/SignupLTI should redirect to / when not signup with l
                 className="help-block"
                 id="username-disabled-label"
               >
-                <FormattedMessage
+                <MemoizedFormattedMessage
                   id="signup_user_completed.textInputDisabled"
                   values={
                     Object {
@@ -394,10 +385,9 @@ exports[`components/signup/SignupLTI should redirect to / when not signup with l
               className="h5"
             >
               <strong>
-                <FormattedMessage
+                <MemoizedFormattedMessage
                   defaultMessage="Email Address"
                   id="signup_LTI.email"
-                  values={Object {}}
                 />
               </strong>
             </p>
@@ -422,10 +412,9 @@ exports[`components/signup/SignupLTI should redirect to / when not signup with l
               className="h5"
             >
               <strong>
-                <FormattedMessage
+                <MemoizedFormattedMessage
                   defaultMessage="Choose your password"
                   id="signup_user_completed.choosePwd"
-                  values={Object {}}
                 />
               </strong>
             </p>
@@ -438,9 +427,11 @@ exports[`components/signup/SignupLTI should redirect to / when not signup with l
                 className="form-control"
                 id="password"
                 maxLength="128"
+                onInput={[Function]}
                 placeholder=""
                 spellCheck="false"
                 type="password"
+                value=""
               />
             </div>
           </div>
@@ -469,10 +460,9 @@ exports[`components/signup/SignupLTI should redirect to / when not signup with l
               onClick={[Function]}
               type="submit"
             >
-              <FormattedMessage
+              <MemoizedFormattedMessage
                 defaultMessage="Create Account"
                 id="signup_user_completed.create"
-                values={Object {}}
               />
             </button>
           </p>
