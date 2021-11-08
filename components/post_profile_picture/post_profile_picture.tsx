@@ -4,7 +4,7 @@
 import React from 'react';
 
 import ProfilePicture from 'components/profile_picture';
-import MattermostLogo from 'components/widgets/icons/mattermost_logo';
+import {RiffLogo} from 'components/common/riff_logo';
 
 import Constants, {UserStatuses} from 'utils/constants';
 import * as PostUtils from 'utils/post_utils';
@@ -93,7 +93,7 @@ export default class PostProfilePicture extends React.PureComponent<Props> {
         const fromWebhook = PostUtils.isFromWebhook(post);
 
         if (isSystemMessage && !compactDisplay && !fromWebhook && !isBot) {
-            return <MattermostLogo className='icon'/>;
+            return <RiffLogo/>;
         }
         const fromAutoResponder = PostUtils.fromAutoResponder(post);
 

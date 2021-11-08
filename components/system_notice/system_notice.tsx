@@ -15,7 +15,7 @@ import {PreferenceType} from 'mattermost-redux/types/preferences';
 import {Preferences} from 'utils/constants';
 import {t} from 'utils/i18n';
 import LocalizedIcon from 'components/localized_icon';
-import MattermostLogo from 'components/widgets/icons/mattermost_logo';
+import {RiffLogo} from 'components/common/riff_logo';
 import {Notice} from 'components/system_notice/types';
 
 type Props = {
@@ -127,7 +127,7 @@ export default class SystemNotice extends React.PureComponent<Props> {
             >
                 <div className='system-notice__header'>
                     <div className='system-notice__logo'>
-                        <MattermostLogo/>
+                        <RiffLogo/>
                     </div>
                     <div className='system-notice__title'>
                         {notice.title}

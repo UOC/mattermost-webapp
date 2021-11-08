@@ -30,6 +30,7 @@ import windows10ThemeImage from 'images/themes/windows_dark.png';
 import logoWebhook from 'images/webhook_icon.jpg';
 
 import {t} from 'utils/i18n';
+import {customTheme} from 'components/needs_team/theme';
 
 import githubCSS from '!!file-loader?name=files/code_themes/[hash].[ext]!highlight.js/styles/github.css';
 
@@ -1136,7 +1137,8 @@ export const Constants = {
     DEFAULT_EMOJI_PICKER_RIGHT_OFFSET: 15,
     EMOJI_PICKER_WIDTH_OFFSET: 295,
     THEMES: {
-        default: {
+        default: customTheme,
+        mattermost: {
             type: 'Mattermost',
             sidebarBg: '#145dbf',
             sidebarText: '#ffffff',
@@ -1672,6 +1674,7 @@ export const Constants = {
     CHANNEL_ID_LENGTH: 26,
     TRANSPARENT_PIXEL: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
     TRIPLE_BACK_TICKS: /```/g,
+    SYSTEM_BRAND_NAME: 'Riff Edu',
     MAX_ATTACHMENT_FOOTER_LENGTH: 300,
     ACCEPT_STATIC_IMAGE: '.jpeg,.jpg,.png,.bmp',
     ACCEPT_EMOJI_IMAGE: '.jpeg,.jpg,.png,.gif',

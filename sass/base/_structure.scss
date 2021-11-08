@@ -91,3 +91,7 @@ body {
 img {
     max-width: 100%;
 }
+
+.tooltip {
+    opacity: 1; //overrides bootstrap setting
+}
