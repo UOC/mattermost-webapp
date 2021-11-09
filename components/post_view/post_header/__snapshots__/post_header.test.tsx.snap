@@ -10,12 +10,7 @@ exports[`components/post_view/post_header should match snapshot 1`] = `
     <Connect(UserProfile)
       disablePopover={true}
       overwriteImage={null}
-      overwriteName={
-        <Memo(MemoizedFormattedMessage)
-          defaultMessage="System"
-          id="post_info.system"
-        />
-      }
+      overwriteName="Riff Edu"
       userId=""
     />
     <PostHeaderCustomStatus
@@ -76,12 +71,7 @@ exports[`components/post_view/post_header should match snapshot when custom stat
     <Connect(UserProfile)
       disablePopover={true}
       overwriteImage={null}
-      overwriteName={
-        <Memo(MemoizedFormattedMessage)
-          defaultMessage="System"
-          id="post_info.system"
-        />
-      }
+      overwriteName="Riff Edu"
       userId=""
     />
     <PostHeaderCustomStatus
@@ -142,12 +132,7 @@ exports[`components/post_view/post_header should match snapshot when custom stat
     <Connect(UserProfile)
       disablePopover={true}
       overwriteImage={null}
-      overwriteName={
-        <Memo(MemoizedFormattedMessage)
-          defaultMessage="System"
-          id="post_info.system"
-        />
-      }
+      overwriteName="Riff Edu"
       userId=""
     />
     <PostHeaderCustomStatus
