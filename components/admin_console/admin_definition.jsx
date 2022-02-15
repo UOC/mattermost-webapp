@@ -5920,7 +5920,7 @@ const AdminDefinition = {
                         help_text_default: 'Set a default theme that applies to all new users on the system.',
                         help_text_markdown: true,
                         options: [
-                            {
+                            /*{
                                 value: 'default',
                                 display_name: 'Mattermost',
                                 display_name_default: 'Mattermost',
@@ -5939,7 +5939,7 @@ const AdminDefinition = {
                                 value: 'windows10',
                                 display_name: 'Windows Dark',
                                 display_name_default: 'Windows Dark',
-                            },
+                            },*/
                         ],
                         isHidden: it.not(it.licensed), // E10 and higher
                         isDisabled: it.not(it.userHasWritePermissionOnResource(RESOURCE_KEYS.EXPERIMENTAL.FEATURES)),

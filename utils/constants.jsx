@@ -1138,7 +1138,7 @@ export const Constants = {
     EMOJI_PICKER_WIDTH_OFFSET: 295,
     THEMES: {
         default: customTheme,
-        mattermost: {
+        /*mattermost: {
             type: 'Mattermost',
             sidebarBg: '#145dbf',
             sidebarText: '#ffffff',
@@ -1249,7 +1249,7 @@ export const Constants = {
             mentionHighlightLink: '#a4ffeb',
             codeTheme: 'monokai',
             image: windows10ThemeImage,
-        },
+        },*/
     },
     THEME_ELEMENTS: [
         {

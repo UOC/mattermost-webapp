@@ -7,14 +7,14 @@
 
 import React from 'react';
 
-import RiffLogoImg from 'images/Riff-32x32.svg';
+import UOCLogoImg from 'images/UOC-32x32.svg';
 
 export const RiffLogo = (props: {[prop: string]: any}) => {
     return (
         <span {...props}>
             <img
-                src={RiffLogoImg}
-                alt='Riff Learning Logo'
+                src={UOCLogoImg}
+                alt='UOC`s logo'
                 className='icon'
             />
         </span>
