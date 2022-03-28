@@ -7,7 +7,7 @@
 
 import React from 'react';
 
-import UOCLogoImg from 'images/UOC-32x32.svg';
+import UOCLogoImg from 'images/logouoc.svg';
 
 export const RiffLogo = (props: {[prop: string]: any}) => {
     return (
